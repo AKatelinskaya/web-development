@@ -1,0 +1,293 @@
+body
+{
+     margin: 0;
+     padding: 0;
+
+     color: #000000;
+}
+
+.main-container
+{
+     max-width: 1710px;
+     margin: 0 auto;
+     padding: 0 20px;
+}
+
+/*h1-h6*/
+.main_header
+{
+     margin: 0;
+     font: normal 600 100px/122.35% 'Montserrat', sans-serif;
+}
+
+.section_header
+{
+     font: normal 500 48px/59px 'Montserrat', sans-serif;
+}
+
+/*buttons*/
+.narrow-button
+{
+     padding: 18px 39px 17px 38px;
+     border-radius: 5px;
+
+     text-align: center;
+     font:  normal 600 16px/16px  'Montserrat', sans-serif;
+}
+
+.medium-button
+{
+     padding: 18px 81px 17px;
+     border-radius: 5px;
+
+     text-align: center;
+     font:  normal 600 16px/16px  'Montserrat', sans-serif;
+}
+
+/*colors*/
+.highlight-background
+{
+     background-color: #05090C;
+     border-color: #05090C;
+}
+
+.highlight-text
+{
+     color: #FFFFFF;
+}
+
+.marker-text
+{
+     color: #EE58B6
+}
+
+/*header*/
+.header-wrap
+{
+     margin: 30px 15px 43px 15px;
+     display: flex;
+     flex-direction: row;
+}
+
+.header__logotype
+{
+     padding-bottom: 2px;
+}
+
+.header__menu
+{
+     display: flex;
+     margin-left: auto;
+}
+
+.header__menu-item
+{
+     margin: 0 40px 0 47px;
+     padding: 3px 0 0 0;
+
+     font:  normal 500 16px/20px  'Montserrat', sans-serif;
+     list-style-type: none;
+}
+
+.header__button
+{
+     margin-left: 59px;
+}
+
+/*banner*/
+.banner
+{
+     margin: 0 auto;
+     display: flex;
+     align-content: space-between;
+}
+
+.banner__subtitle
+{
+     margin-top: 20px;
+     width: 545px;
+
+     font: normal 400 26px/120% 'Roboto Condensed', sans-serif;
+     opacity: 0.7;
+}
+
+.banner__image-wrap
+{
+     margin-right: 85px;
+     margin-left: auto;
+     margin-top: 28px;
+}
+
+.banner__image
+{
+     margin-top: 3px;
+     width: 762px;
+     height: 637px;
+}
+
+.banner__left-column
+{
+     padding-top: 112px;
+     margin-left: 58px;
+}
+
+.banner__main-header
+{
+     margin-top: 69px;
+}
+
+.banner__button
+{
+     margin-top: 20px;
+}
+
+/*skills*/
+.skills
+{
+     margin-top: 56px;
+     padding: 114px 0 130px 0;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.skills__content-wrap
+{
+     margin: 0 44px;
+     width: 337px;
+     text-align: center;
+}
+
+.skills__text-item
+{
+     margin-top: 17px;
+     font: normal 400 22px/120% 'Roboto Condensed', sans-serif;
+}
+
+/*problems*/
+.problems
+{
+     margin-top: 72px;
+     margin-bottom: 35px;
+}
+
+.problems__content-wrap
+{
+     display: flex;
+     justify-content: center;
+}
+
+.problems__image-left-wrap
+{
+     flex-grow: 1;
+     display: flex;
+     justify-content: flex-end;
+
+}
+.problems__image-right-wrap
+{
+     flex-grow: 1;
+     display: flex;
+     justify-content: flex-start;
+     margin-right: 100px;
+}
+
+.problems__image
+{
+     padding: 0 26px;
+}
+
+.problems__description
+{
+     font: normal 400 18px/135% 'Roboto Condensed', sans-serif;
+     opacity: 0.7;
+}
+
+.problems__right-wrap
+ {
+      align-self: center;
+      padding: 0 52px 0 26px;
+      flex-grow: 1;
+ }
+
+.problems__left-wrap
+{
+     align-self: center;
+     padding: 0 171px 0 0;
+     flex-grow: 1;
+     display: flex;
+     justify-content: flex-end;
+}
+
+.problems__section-header-right
+{
+     margin: 9px 0 26px 0;
+}
+
+.problems__section-header
+{
+     margin: 132px 0 26px 0;
+}
+
+.problems__left-text-wrap
+{
+     max-width: 516px;
+}
+
+/*you_can*/
+.you-can
+{
+     margin-top: 85px;
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.you_can__card-wrap
+{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     max-width: 1300px;
+     margin: auto;
+}
+
+.you-can__description
+{
+     font: normal 400 18px/21px 'Roboto Condensed', sans-serif;
+}
+
+.you-can__card
+{
+     margin: 0 14px 28px 18px;
+     padding: 32px 37px 28px;
+     max-width: 282px;
+
+     border-radius: 7px;
+}
+
+.you-can__section-header
+{
+     text-align: center;
+     margin-bottom: 59px;
+
+}
+
+/*footer*/
+footer
+{
+     padding: 30px 0 37px;
+     display: flex;
+     justify-content: center;
+}
+
+.footer__light-logotype
+{
+
+}
+
+.footer-wrap
+{
+     margin-top: 260px;
+}

@@ -1,0 +1,45 @@
+body
+{
+    margin: 0;
+}
+
+.header-menu
+{
+    max-width: 1680px;
+    margin: 30px auto 0 auto;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.header-menu__button
+{
+    padding: 21px 40px 19px 41px;
+    background: #05090C;
+    color: #ffffff;
+    border-radius: 5px;
+
+    font:  normal 600 16px/16px  'Montserrat', sans-serif;
+}
+
+.header-menu__logo
+{
+    width: 167px;
+    height: 26px;
+}
+
+.header-menu__menu
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+
+    font:  normal 500 16px/20px  'Montserrat', sans-serif;
+}
+
+.header-menu__menu-item
+{
+    margin-left: 87px;
+    list-style-type: none;
+}
